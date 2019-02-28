@@ -1,0 +1,16 @@
+.container {
+  background: black;
+  color: white;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.brand {
+  margin-right: auto;
+}
