@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
 import "./layout.css"
-import NavBar from "./NavBar"
+import NavBar from "./navBar"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -19,7 +19,7 @@ const Layout = ({ children }) => (
     render={data => (
       <div>
         <NavBar />
-        <main>{children}</main>
+        <main style={{ marginTop: "60px" }}>{children}</main>
         {/* <footer>
             © {new Date().getFullYear()}, Built with
             {` `}
