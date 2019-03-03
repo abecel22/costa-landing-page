@@ -1,5 +1,5 @@
 import React from "react"
-import SideToggleButton from "./SideToggleButton"
+import SideToggleButton from "./sideToggleButton"
 
 import "./styles/navBar.css"
 
