@@ -1,4 +1,5 @@
 import React from "react"
+import SideToggleButton from "./SideToggleButton"
 
 import "./styles/navBar.css"
 
@@ -6,7 +7,9 @@ const NavBar = () => {
   return (
     <header className="toolbar">
       <nav className="toolbar__nav">
-        <div />
+        <div>
+          <SideToggleButton />
+        </div>
         <div className="toolbar__logo">
           <a href="/">Costa A Costa</a>
         </div>

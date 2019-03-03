@@ -2,9 +2,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import NavBar from "./navBar"
+import SideDrawer from "./sideDrawer"
+import Backdrop from "./backdrop"
 
 import "./styles/layout.css"
-import "./styles/main.css"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -18,8 +19,10 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div>
+      <div style={{ height: "100%" }}>
         <NavBar />
+        <SideDrawer />
+        <Backdrop />
         <main style={{ marginTop: "60px" }}>{children}</main>
         {/* <footer>
             © {new Date().getFullYear()}, Built with
