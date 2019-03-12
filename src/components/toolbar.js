@@ -1,14 +1,14 @@
 import React from "react"
 import SideToggleButton from "./sideToggleButton"
 
-import "./styles/navBar.css"
+import "./styles/toolbar.css"
 
-const NavBar = () => {
+const NavBar = (props) => {
   return (
     <header className="toolbar">
       <nav className="toolbar__nav">
-        <div>
-          <SideToggleButton />
+        <div className="toolbar__toggle-button">
+          <SideToggleButton click={props.drawerClickHandler}/>
         </div>
         <div className="toolbar__logo">
           <a href="/">Costa A Costa</a>

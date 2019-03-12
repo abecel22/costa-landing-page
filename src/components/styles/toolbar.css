@@ -48,3 +48,19 @@
 .toolbar_nav-items a:active {
   color: #2196f3;
 }
+
+@media (max-width: 768px) {
+  .toolbar_nav-items {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .toolbar__toggle-button {
+    display: none;
+  }
+
+  .toolbar__logo {
+    margin-left: 0;
+  }
+}
