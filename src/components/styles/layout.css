@@ -1,6 +1,8 @@
 html {
   font-family: sans-serif;
   height: 100%;
+  overflow: hidden;
+
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -10,6 +12,7 @@ body {
   background: #2196f3;
   height: 100%;
   color: white;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -619,6 +622,7 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
