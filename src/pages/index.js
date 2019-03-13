@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import Toolbar from "../components/toolbar"
 import SideDrawer from "../components/sideDrawer"
 import Backdrop from "../components/backdrop"
+import Banner from "../components/banner"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
@@ -37,8 +38,7 @@ class IndexPage extends Component {
     <SideDrawer show={this.state.sideDrawerOpen}/>
     {backdrop}
     
-    <h1>In Progress</h1>
-    <p>Welcome to Costa a Costa</p>
+    <Banner />
 
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }} />
     {/* <Link to="/page-2/">Go to page 2</Link> */}

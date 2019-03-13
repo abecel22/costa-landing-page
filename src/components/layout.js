@@ -17,7 +17,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div style={{ height: "100%" }}>
-        <main style={{ marginTop: "60px" }}>{children}</main>
+        <main style={{ marginTop: "56px" }}>{children}</main>
         {/* <footer>
             © {new Date().getFullYear()}, Built with
             {` `}
