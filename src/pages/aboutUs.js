@@ -3,11 +3,11 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const ContactUs = () => (
+const AboutUs = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the Contact Us page</h1>
+    <SEO title="About Us" />
+    <h1>Hi from the About Us page</h1>
   </Layout>
 )
 
-export default ContactUs
+export default AboutUs

@@ -10,7 +10,7 @@ class IndexPage extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+        <SEO title="Home" keywords={[`costaacosta`, `costa`, `ebay`]} />
         <Banner />
         <IconColumns />
 
