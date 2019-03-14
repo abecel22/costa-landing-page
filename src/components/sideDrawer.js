@@ -19,10 +19,10 @@ const sideDrawer = props => {
           <Link to="/shop/">Shop</Link>
         </li>
         <li>
-          <Link to="/contact-us/">Contact Us</Link>
+          <Link to="/contactUs/">Contact Us</Link>
         </li>
         <li>
-          <Link to="/about-us/">About Us</Link>
+          <Link to="/aboutUs/">About Us</Link>
         </li>
       </ul>
     </nav>
