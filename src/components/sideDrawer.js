@@ -1,34 +1,32 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import "./styles/sideDrawer.css"
 
 const sideDrawer = props => {
-  let drawerClasses= 'side-drawer';
-  if(props.show) {
-    drawerClasses = 'side-drawer open';
+  let drawerClasses = "side-drawer"
+  if (props.show) {
+    drawerClasses = "side-drawer open"
   }
 
   return (
-      <nav className={drawerClasses}>
+    <nav className={drawerClasses}>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/">Shop</a>
+          <Link to="/shop/">Shop</Link>
         </li>
         <li>
-          <a href="/">Contact Us</a>
+          <Link to="/contact-us/">Contact Us</Link>
         </li>
         <li>
-          <a href="/">About Us</a>
+          <Link to="/about-us/">About Us</Link>
         </li>
       </ul>
     </nav>
   )
-
 }
-  
-
 
 export default sideDrawer

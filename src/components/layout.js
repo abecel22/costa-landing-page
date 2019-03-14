@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import Header from "../components/header"
 
 import "./styles/layout.css"
 
@@ -17,6 +18,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div style={{ height: "100%" }}>
+        <Header />
         <main style={{ marginTop: "56px" }}>{children}</main>
         {/* <footer>
             © {new Date().getFullYear()}, Built with

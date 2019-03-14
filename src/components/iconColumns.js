@@ -24,7 +24,7 @@ function iconColumns() {
       <FeatureIcons
         imgPath={present}
         imgAlt="Fast Shipping"
-        subtitle="Fashion"
+        subtitle="Fast Delivery"
         imgText="This is where you tell about how your shipping works."
       />
     </div>

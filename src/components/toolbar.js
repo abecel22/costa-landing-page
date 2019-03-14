@@ -1,14 +1,15 @@
 import React from "react"
 import SideToggleButton from "./sideToggleButton"
+import { Link } from "gatsby"
 
 import "./styles/toolbar.css"
 
-const NavBar = (props) => {
+const NavBar = props => {
   return (
     <header className="toolbar">
       <nav className="toolbar__nav">
         <div className="toolbar__toggle-button">
-          <SideToggleButton click={props.drawerClickHandler}/>
+          <SideToggleButton click={props.drawerClickHandler} />
         </div>
         <div className="toolbar__logo">
           <a href="/">Costa A Costa</a>
@@ -17,16 +18,16 @@ const NavBar = (props) => {
         <div className="toolbar_nav-items">
           <ul>
             <li>
-              <a href="/">Home</a>{" "}
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/">Shop</a>{" "}
+              <Link to="/shop/">Shop</Link>
             </li>
             <li>
-              <a href="/">Contact Us</a>{" "}
+              <Link to="/contact-us/">Contact Us</Link>
             </li>
             <li>
-              <a href="/">About Us</a>{" "}
+              <Link to="/about-us/">About Us</Link>
             </li>
           </ul>
         </div>
