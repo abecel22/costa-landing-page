@@ -1,0 +1,41 @@
+.about-div {
+  margin: 8% 14% 0 14%;
+}
+
+.about-div h1 {
+  text-align: center;
+}
+
+.about-div__body {
+  display: flex;
+  align-items: center;
+}
+
+.about-div__body-image {
+  width: 300px;
+}
+
+.about-div__body-image img {
+  width: 200px;
+}
+
+.about-div__body-content {
+  width: 800px;
+}
+
+@media (max-width: 1150px) {
+  .about-div__body {
+    flex-direction: column;
+  }
+  .about-div__body-image {
+    width: auto;
+    margin: 10% 0;
+  }
+
+  .about-div__body-image img {
+    padding: 0;
+  }
+  .about-div__body-content {
+    width: 100%;
+  }
+}
