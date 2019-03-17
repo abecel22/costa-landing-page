@@ -1,8 +1,9 @@
 import React from "react"
 
-import untuckit from "../images/untuckit.jpg"
 import lululemon from "../images/lululemon.jpg"
-import dare from "../images/dare.jpg"
+import eton from "../images/eton.jpg"
+import eagles from "../images/eagles.jpg"
+import ebay from "../images/002-ebay.png"
 
 import Layout from "../components/layout"
 import "../components/styles/shop.css"
@@ -15,22 +16,34 @@ const Shop = () => (
       <div className="shop-div__headings">
         <h1>Shop</h1>
         <h3>Stand Out in Style</h3>
-        <p>Find pre-owned or new fasion items from our Ebay store. </p>
+        <p>
+          Find pre-owned or new fasion items at our{" "}
+          <a href="https://www.ebay.com/str/Costaacosta/">
+            <img src={ebay} alt="" />{" "}
+          </a>
+          store.
+        </p>
       </div>
       <div className="shop-div__grid">
         <div className="shop-div__grid-part">
           <h4>Business Attire</h4>
-          <img src={untuckit} alt="" />
-          <p>Top Brands- Untuckit, Robert Grahm, Polo, etc..</p>
+          <a href="https://www.ebay.com/str/Costaacosta/">
+            <img src={eton} alt="" />
+          </a>
+          <p>Top Brands- Eton, Untuckit, Robert Grahm, Polo, etc..</p>
         </div>
         <div className="shop-div__grid-part">
           <h4>Athletic Apparel</h4>
-          <img src={lululemon} alt="" />
+          <a href="https://www.ebay.com/str/Costaacosta/">
+            <img src={lululemon} alt="" />
+          </a>
           <p>Top Brands- Lululemon, Athleta, Nike, Under Armour, etc..</p>
         </div>{" "}
         <div className="shop-div__grid-part">
           <h4>Vintage</h4>
-          <img src={dare} alt="" />
+          <a href="https://www.ebay.com/str/Costaacosta/">
+            <img src={eagles} alt="" />
+          </a>
           <p>Concerts, 90's, 80's, etc..</p>
         </div>
       </div>

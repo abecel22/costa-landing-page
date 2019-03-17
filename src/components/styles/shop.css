@@ -1,5 +1,11 @@
 .shop-div {
-  margin: 5% 7rem;
+  margin: 8% 14% 0 14%;
+}
+
+.shop-div__headings img {
+  position: relative;
+  top: 20px;
+  width: 50px;
 }
 
 .shop-div__grid {
@@ -12,6 +18,32 @@
   max-width: 300px;
 }
 
-.shop-div img {
+.shop-div__grid img {
   height: 250px;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, 0.2);
+  transition: transform 1s;
+}
+
+.shop-div__grid img:hover {
+  transform: translate(0px, -5px);
+}
+
+@media (max-width: 768px) {
+  .shop-div__headings {
+    margin-top: 20%;
+  }
+  .shop-div__grid {
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+
+  .shop-div__grid-part {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .shop-div__grid-part p {
+    margin-bottom: 3rem;
+  }
 }

@@ -13,9 +13,6 @@ class IndexPage extends Component {
         <SEO title="Home" keywords={[`costaacosta`, `costa`, `ebay`]} />
         <Banner />
         <IconColumns />
-
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }} />
-        {/* <Link to="/page-2/">Go to page 2</Link> */}
       </Layout>
     )
   }
