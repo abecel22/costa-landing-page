@@ -1,4 +1,5 @@
 import React from "react"
+import Carousel from "../components/carousel"
 import costa from "../images/costa.png"
 
 import Layout from "../components/layout"
@@ -34,6 +35,10 @@ const AboutUs = () => (
             don't hesitate to contact us. Sincerely,Claudia Acosta
           </p>
         </div>
+      </div>{" "}
+      <div className="carousel-container">
+        <h3>Recent Reviews</h3>
+        <Carousel />
       </div>
     </div>
   </Layout>
