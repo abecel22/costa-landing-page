@@ -15,7 +15,7 @@ class ContactUs extends Component {
             className="contact-div__form"
             name="contact"
             method="post"
-            netlify
+            data-netlify="true"
           >
             <input type="hidden" name="form-name" value="contact" />
             <input
