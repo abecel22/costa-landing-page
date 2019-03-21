@@ -30,7 +30,9 @@ class ContactUs extends Component {
               type="text"
               placeholder="Message"
             />
-            <button className="contact-div__form-button">Send</button>
+            <button className="contact-div__form-button" type="submit">
+              Send
+            </button>
           </form>
         </div>
       </Layout>
