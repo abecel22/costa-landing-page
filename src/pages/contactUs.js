@@ -11,7 +11,7 @@ class ContactUs extends Component {
         <SEO title="Contact Us" />
         <div className="contact-div">
           <h1>Contact Us</h1>
-          <form className="contact-div__form">
+          <form className="contact-div__form" netlify>
             <input
               className="contact-div__form-part"
               name="name"
