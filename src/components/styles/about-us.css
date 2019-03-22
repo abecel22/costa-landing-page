@@ -25,13 +25,23 @@
 
 .carousel-container {
   width: 80%;
-  height: 400px;
+  height: auto;
   margin: 6% auto;
   text-align: center;
 }
 
 .carousel-container h3 {
   margin-bottom: 6%;
+  color: black;
+}
+
+.slider-div {
+  color: black;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
 }
 
 @media (max-width: 1150px) {
