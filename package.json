@@ -2,7 +2,7 @@
   "name": "costa-a-costa",
   "private": true,
   "description": "Landing page for Costa A Costa online store.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Abel Acosta",
   "dependencies": {
     "gatsby": "^2.1.18",
