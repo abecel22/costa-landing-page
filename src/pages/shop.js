@@ -30,21 +30,23 @@ const Shop = () => (
           <a href="https://www.ebay.com/str/Costaacosta/">
             <img src={eton} alt="" />
           </a>
-          <p>Top Brands- Eton, Untuckit, Robert Grahm, Polo, etc..</p>
+          <p>
+            Top Brands- Brioni ,Eton, Mizzen+Main, Ministry of Supply, etc..
+          </p>
         </div>
         <div className="shop-div__grid-part">
           <h4>Athletic Apparel</h4>
           <a href="https://www.ebay.com/str/Costaacosta/">
             <img src={lululemon} alt="" />
           </a>
-          <p>Top Brands- Lululemon, Athleta, Nike, Under Armour, etc..</p>
+          <p>Top Brands- Lululemon, Patagonia, Kuhl, Nike etc...</p>
         </div>{" "}
         <div className="shop-div__grid-part">
           <h4>Vintage</h4>
           <a href="https://www.ebay.com/str/Costaacosta/">
             <img src={eagles} alt="" />
           </a>
-          <p>Concerts, 90's, 80's, etc..</p>
+          <p>Concert, Ralph Lauren Polo, 90’s tees etc...</p>
         </div>
       </div>
     </div>

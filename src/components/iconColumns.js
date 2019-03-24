@@ -13,19 +13,19 @@ function iconColumns() {
         imgPath={rating}
         imgAlt="A fashion icon"
         subtitle="Fashion"
-        imgText="This is wher you tell about your products. Vintage, etc."
+        imgText="A selection of fashionable clothing brands"
       />
       <FeatureIcons
         imgPath={payment}
         imgAlt="A smartphone icon"
-        subtitle="Order Online"
-        imgText="This is where you tell about how easy it is to order."
+        subtitle="Online Order"
+        imgText="Easy set up with PayPal "
       />
       <FeatureIcons
         imgPath={present}
-        imgAlt="Fast Shipping"
-        subtitle="Fast Delivery"
-        imgText="This is where you tell about how your shipping works."
+        imgAlt="Shipping"
+        subtitle="Shipping"
+        imgText="Same day shipping on all orders placed before 3pm(CT), Mon-Fri "
       />
     </div>
   )

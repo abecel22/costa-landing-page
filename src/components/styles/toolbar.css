@@ -16,6 +16,8 @@
 
 .toolbar__logo {
   margin-left: 1rem;
+  font-family: "Bitter", serif;
+  font-weight: 900;
 }
 
 .toolbar__logo a {
@@ -33,6 +35,7 @@
   margin: 0;
   padding: 0;
   display: flex;
+  font-family: "Bitter", serif;
 }
 
 .toolbar_nav-items li {

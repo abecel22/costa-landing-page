@@ -12,6 +12,10 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <link
+          href="https://fonts.googleapis.com/css?family=Bitter"
+          rel="stylesheet"
+        />
+        <link
           rel="stylesheet"
           type="text/css"
           charSet="UTF-8"
