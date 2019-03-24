@@ -11,6 +11,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+
         <link
           href="https://fonts.googleapis.com/css?family=Bitter"
           rel="stylesheet"
@@ -26,6 +27,7 @@ export default function HTML(props) {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
+
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
